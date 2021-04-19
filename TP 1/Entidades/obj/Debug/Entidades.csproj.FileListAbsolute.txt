@@ -1,0 +1,7 @@
+C:\Users\Intel\Documents\Juani\UTN\2° Cuatrimestre\Lab y Prog (repos)\tp_laboratorio_2\TP 1\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Intel\Documents\Juani\UTN\2° Cuatrimestre\Lab y Prog (repos)\tp_laboratorio_2\TP 1\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Intel\Documents\Juani\UTN\2° Cuatrimestre\Lab y Prog (repos)\tp_laboratorio_2\TP 1\Entidades\bin\Debug\Entidades.exe.config
+C:\Users\Intel\Documents\Juani\UTN\2° Cuatrimestre\Lab y Prog (repos)\tp_laboratorio_2\TP 1\Entidades\bin\Debug\Entidades.exe
+C:\Users\Intel\Documents\Juani\UTN\2° Cuatrimestre\Lab y Prog (repos)\tp_laboratorio_2\TP 1\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Intel\Documents\Juani\UTN\2° Cuatrimestre\Lab y Prog (repos)\tp_laboratorio_2\TP 1\Entidades\obj\Debug\Entidades.exe
+C:\Users\Intel\Documents\Juani\UTN\2° Cuatrimestre\Lab y Prog (repos)\tp_laboratorio_2\TP 1\Entidades\obj\Debug\Entidades.pdb
