@@ -9,7 +9,7 @@ namespace Entidades
     public abstract class Companion
     {
         #region Atributos
-        private string nombre;
+        private string nombre;      // marcado de numero de serie - generador de nombres
         private List<ETarea> listaTareas;
         private double precio;
         private double tareasRealizadas;
@@ -19,11 +19,15 @@ namespace Entidades
         /// <summary>
         /// Propiedad protegida de sólo lectura. Devuelve el nombre asignado al Companion, junto con una presentación.
         /// </summary>
-        protected string Nombre
+        public virtual string Nombre
         {
             get
             {
-                return $"Mi nombre es {this.nombre}.";
+                return nombre;
+            }
+            set
+            {
+                this.nombre = value;
             }
         }
 

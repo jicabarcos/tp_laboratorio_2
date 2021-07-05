@@ -8,6 +8,20 @@ namespace Entidades
 {
     public class Housekeeper : Companion
     {
+        #region Propiedades
+        public override string Nombre
+        {
+            get
+            {
+                return base.Nombre + "HK-00";
+            }
+            set
+            {
+                base.Nombre = value;
+            }
+        }
+        #endregion
+
         #region Metodos
         /// <summary>
         /// Constructor público de la clase Housekeeper. Llama al constructor de su clase base.

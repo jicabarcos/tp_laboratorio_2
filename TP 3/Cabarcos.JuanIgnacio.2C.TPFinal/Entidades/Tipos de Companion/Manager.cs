@@ -12,6 +12,20 @@ namespace Entidades
         private string nivelDeAcceso;
         #endregion
 
+        #region Propiedades
+        public override string Nombre
+        {
+            get
+            {
+                return base.Nombre + "M-00";
+            }
+            set
+            {
+                base.Nombre = value;
+            }
+        }
+        #endregion
+
         #region Metodos
         /// <summary>
         /// Constructor publico de la clase Manager. Llama al constructor de su clase base. Valida que el

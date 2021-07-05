@@ -13,6 +13,19 @@ namespace Entidades
         #endregion
 
         #region Propiedades
+        public override string Nombre
+        {
+            get
+            {
+                return base.Nombre + "C-00";
+            }
+            set
+            {
+                base.Nombre = value;
+            }
+        }
+
+
         /// <summary>
         /// Propiedad privada de sólo lectura. Devuelve un string con la Lista de Utensilios que usará el Cook.
         /// </summary>
