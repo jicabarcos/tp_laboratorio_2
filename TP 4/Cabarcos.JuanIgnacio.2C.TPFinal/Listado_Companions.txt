@@ -1,0 +1,42 @@
+﻿07/10/2021 18:11:25
+
+Hola! Soy tu nuevo Companion encargado de la cocina.
+Mi nombre es C-001
+
+Tareas: 
+Cocinar
+
+Utensilios:
+Cubiertos
+
+Precio final: $300
+
+-----------------------------
+
+Hola! Soy tu nuevo Companion encargado del orden y la limpieza.
+Mi nombre es HK-001
+
+Tareas: 
+Limpiar
+Ordenar
+
+Precio final: $600
+
+-----------------------------
+
+
+==============================07/10/2021 18:11:53
+
+Hola! Soy tu nuevo Companion encargado del orden y la limpieza.
+Mi nombre es HK-001
+
+Tareas: 
+Limpiar
+Ordenar
+
+Precio final: $600
+
+-----------------------------
+
+
+==============================

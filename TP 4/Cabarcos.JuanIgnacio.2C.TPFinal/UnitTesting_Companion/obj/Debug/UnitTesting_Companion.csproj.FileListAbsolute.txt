@@ -1,0 +1,38 @@
+C:\Users\Intel\source\repos\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Intel\source\repos\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Intel\source\repos\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Intel\source\repos\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Intel\source\repos\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Intel\source\repos\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Intel\source\repos\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\UnitTesting_Companion.dll
+C:\Users\Intel\source\repos\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\UnitTesting_Companion.pdb
+C:\Users\Intel\source\repos\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\Entidades.dll
+C:\Users\Intel\source\repos\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Intel\source\repos\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Intel\source\repos\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\Entidades.pdb
+C:\Users\Intel\source\repos\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Intel\source\repos\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Intel\source\repos\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\obj\Debug\UnitTesting_Companion.csprojAssemblyReference.cache
+C:\Users\Intel\source\repos\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\obj\Debug\UnitTesting_Companion.csproj.CoreCompileInputs.cache
+C:\Users\Intel\source\repos\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\obj\Debug\UnitTesting_Companion.csproj.CopyComplete
+C:\Users\Intel\source\repos\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\obj\Debug\UnitTesting_Companion.dll
+C:\Users\Intel\source\repos\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\obj\Debug\UnitTesting_Companion.pdb
+C:\Repo\tp_laboratorio_2\TP 3\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Repo\tp_laboratorio_2\TP 3\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Repo\tp_laboratorio_2\TP 3\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\es\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Repo\tp_laboratorio_2\TP 3\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Repo\tp_laboratorio_2\TP 3\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Repo\tp_laboratorio_2\TP 3\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Repo\tp_laboratorio_2\TP 3\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\UnitTesting_Companion.dll
+C:\Repo\tp_laboratorio_2\TP 3\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\UnitTesting_Companion.pdb
+C:\Repo\tp_laboratorio_2\TP 3\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\Entidades.dll
+C:\Repo\tp_laboratorio_2\TP 3\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Repo\tp_laboratorio_2\TP 3\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Repo\tp_laboratorio_2\TP 3\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\Entidades.pdb
+C:\Repo\tp_laboratorio_2\TP 3\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Repo\tp_laboratorio_2\TP 3\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Repo\tp_laboratorio_2\TP 3\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\obj\Debug\UnitTesting_Companion.csprojAssemblyReference.cache
+C:\Repo\tp_laboratorio_2\TP 3\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\obj\Debug\UnitTesting_Companion.csproj.CoreCompileInputs.cache
+C:\Repo\tp_laboratorio_2\TP 3\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\obj\Debug\UnitTesting_Companion.csproj.CopyComplete
+C:\Repo\tp_laboratorio_2\TP 3\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\obj\Debug\UnitTesting_Companion.dll
+C:\Repo\tp_laboratorio_2\TP 3\Cabarcos.JuanIgnacio.2C.TPFinal\UnitTesting_Companion\obj\Debug\UnitTesting_Companion.pdb
