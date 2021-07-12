@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?><ArrayOfCompanion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Companion xsi:type="Cook"><Nombre>C-001</Nombre><ListaTareas>Cocinar
-ComprarComida
-</ListaTareas><Precio>600</Precio><TareasRealizadas>0</TareasRealizadas><ListaUtensilios>Ollas
-</ListaUtensilios></Companion><Companion xsi:type="Housekeeper"><Nombre>HK-001</Nombre><ListaTareas>Ordenar
-Barrer
-</ListaTareas><Precio>600</Precio><TareasRealizadas>0</TareasRealizadas></Companion></ArrayOfCompanion>

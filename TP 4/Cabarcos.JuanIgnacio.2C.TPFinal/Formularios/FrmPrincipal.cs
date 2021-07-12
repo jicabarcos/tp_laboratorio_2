@@ -123,6 +123,7 @@ namespace Formularios
                     sw.WriteLine(Factory.MostrarListado<Companion>());
                     sw.Write("==============================\n\n");
                 }
+                MessageBox.Show($"Companion agregado al archvio de texto.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             return true;
 
