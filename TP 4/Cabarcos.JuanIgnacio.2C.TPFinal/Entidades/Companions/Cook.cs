@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
+    [Serializable]
     public class Cook : Companion, IOrdenable
     {
         #region Atributos
@@ -27,9 +28,9 @@ namespace Entidades
 
 
         /// <summary>
-        /// Propiedad privada de sólo lectura. Devuelve un string con la Lista de Utensilios que usará el Cook.
+        /// Propiedad pública de lectura y escritura. Devuelve un string con la Lista de Utensilios que usará el Cook.
         /// </summary>
-        private string ListaUtensilios
+        public string ListaUtensilios
         {
             get
             {
@@ -42,10 +43,23 @@ namespace Entidades
 
                 return sb.ToString();
             }
+
+            set
+            {
+                this.listaUtensilios = new List<EUtensilio>() {  };
+            }
         }
         #endregion
 
         #region Metodos
+        /// <summary>
+        /// Constructor público sin parámetros de la clase Cook.
+        /// </summary>
+        public Cook():base()
+        {
+            this.listaUtensilios = new List<EUtensilio>() { };
+        }
+        
         /// <summary>
         /// Constructor publico de la clase Cook. Asigna la lista de utensilios pasada por parámetro a su
         /// correspondiente atributo. Llama al constructor de su clase base.
@@ -53,7 +67,7 @@ namespace Entidades
         /// <param name="nombre">Nombre del Cook.</param>
         /// <param name="tareas">Tareas que podrá realizar el Cook.</param>
         /// <param name="utensilios">Utensilios que tendrá a su disposición el Cook.</param>
-        public Cook( List<ETarea> tareas, List<EUtensilio> utensilios):base(tareas)
+        public Cook(List<ETarea> tareas, List<EUtensilio> utensilios):base(tareas)
         {
             this.listaUtensilios = utensilios;
         }

@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using Entidades;
+using Formularios;
 
 namespace UnitTesting_Companion
 {
@@ -16,28 +17,22 @@ namespace UnitTesting_Companion
         {
             bool response;
             
-            Housekeeper hk1 = new Housekeeper(
-                new List<ETarea>() { ETarea.Barrer, ETarea.Limpiar, ETarea.Ordenar });
-
-            response = Factory.AgregarCompanion(hk1);
+            Housekeeper hk = new Housekeeper(new List<ETarea>() { ETarea.Barrer, ETarea.Limpiar, ETarea.Ordenar });
+            response = Factory.AgregarCompanionConsola(hk);
 
             Assert.IsTrue(response);
         }
 
         /// <summary>
-        /// Test Unitario para el método EliminarCompanion() de la clase Factory.
+        /// Test Unitario para el método RealizarGuardadoTxt() de la clase FrmPrincipal.
         /// </summary>
         [TestMethod]
-        public void Test_EliminarCompanion()
+        public void Test_GuardarTxt()
         {
-            bool response;
+            bool response = false;
 
-            Cook c1 = new Cook( 
-                new List<ETarea>() { ETarea.Barrer, ETarea.Limpiar, ETarea.Ordenar }, 
-                new List<EUtensilio>() { EUtensilio.Cubiertos, EUtensilio.Ollas, EUtensilio.Sartenes });
-            
-            Factory.AgregarCompanion(c1);
-            response = Factory.EliminarCompanion(c1);
+            FrmPrincipal frmPrincipal = new FrmPrincipal();
+            response = frmPrincipal.RealizarGuardadoTxt();
 
             Assert.IsTrue(response);
         }

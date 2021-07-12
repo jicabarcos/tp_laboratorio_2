@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Manager : Companion, IOrdenable
+    [Serializable]
+    public class Housekeeper : Companion
     {
-        #region Atributos
-        private string nivelDeAcceso;
-        #endregion
-
         #region Propiedades
         public override string Nombre
         {
@@ -28,23 +25,23 @@ namespace Entidades
 
         #region Metodos
         /// <summary>
-        /// Constructor publico de la clase Manager. Llama al constructor de su clase base. Valida que el
-        /// parámetro "acceso" sea uno de los tres permitidos, si no lo es, lo setea en "Bajo".
+        /// Constructor público sin parámetros de la clase Housekeeper.
         /// </summary>
-        /// <param name="nombre">Nombre del Manager.</param>
-        /// <param name="tareas">Tareas que podrá realizar el Manager.</param>
-        /// <param name="acceso">Nivel de acceso a los datos del usuario.</param>
-        public Manager(List<ETarea> tareas, string acceso) : base(tareas)
+        public Housekeeper() : base()
         {
-            if(acceso != "Alto" && acceso != "Medio" && acceso != "Bajo")
-            {
-                acceso = "Bajo";
-            }
-            this.nivelDeAcceso = acceso;
         }
 
         /// <summary>
-        /// Implementación del método abstracto MostrarDatos(). Muestra los datos del Cook 
+        /// Constructor público de la clase Housekeeper. Llama al constructor de su clase base.
+        /// </summary>
+        /// <param name="nombre">Nombre del Housekeeper.</param>
+        /// <param name="tareas">Lista de tareas que realizará el Housekeeper.</param>
+        public Housekeeper(List<ETarea> tareas):base(tareas)
+        {            
+        }
+
+        /// <summary>
+        /// Implementación del método abstracto MostrarDatos(). Muestra los datos del Housekeeper 
         /// junto con un mensaje de presentación.
         /// </summary>
         /// <returns>String con los datos.</returns>
@@ -52,9 +49,8 @@ namespace Entidades
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine("Hola! Soy tu nuevo Companion encargado de administrar y organizar.");
+            sb.AppendLine("Hola! Soy tu nuevo Companion encargado del orden y la limpieza.");
             sb.Append(base.ToString());
-            sb.AppendLine($"Nivel de acceso a datos del usuario: {this.nivelDeAcceso}\n");
             sb.AppendLine($"Precio final: ${base.Precio}\n");
             sb.AppendLine($"-----------------------------");
 
@@ -62,7 +58,7 @@ namespace Entidades
         }
 
         /// <summary>
-        /// Ordena al Manager que realice ciertas tareas.
+        /// Ordena al Housekeeper que realice ciertas tareas.
         /// Implementación de la interfaz IOrdenable.
         /// </summary>
         /// <param name="tareas">Tareas a realizar.</param>
@@ -71,14 +67,14 @@ namespace Entidades
         {
             StringBuilder sb = new StringBuilder();
             bool aux = false;
-
+            
             foreach (ETarea unaTarea in this.ListaTareas)
             {
                 foreach (ETarea otraTarea in tareas)
                 {
                     if (unaTarea == otraTarea)
                     {
-                        sb.AppendLine($"Tareas de administración a realizar: {(this.TareasRealizadas++).ToString()}");
+                        sb.AppendLine($"Tareas de orden y limpieza a realizar: {(this.TareasRealizadas++).ToString()}");
                         aux = true;
                     }
                 }
@@ -89,9 +85,8 @@ namespace Entidades
             }
             else
             {
-                return "Ninguna de las tareas indicadas ha sido asignada al Manager.";
+                return "Ninguna de las tareas indicadas ha sido asignada al Housekeeper.";
             }
-
         }
         #endregion
     }

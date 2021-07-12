@@ -7,33 +7,35 @@ using Entidades;
 
 namespace Test
 {
-    class Program
+    class PruebaConsola
     {
         static void Main()
         {
             Console.Title = "Fabrica de Companions - Juan Ignacio Cabarcos";
 
             // Instanciación de Companions de cada tipo
-            Cook c1 = new Cook("C-001", new List<ETarea>() { ETarea.Cocinar, ETarea.ComprarComida },
+            Cook c1 = new Cook(new List<ETarea>() { ETarea.Cocinar, ETarea.ComprarComida },
                 new List<EUtensilio>() { EUtensilio.Cubiertos, EUtensilio.Ollas });
-            Cook c2 = new Cook("C-002", new List<ETarea>() { ETarea.Cocinar },
+            Cook c2 = new Cook(new List<ETarea>() { ETarea.Cocinar },
                 new List<EUtensilio>() { EUtensilio.Sartenes });            
-            Housekeeper hk1 = new Housekeeper("HK-001", 
-                new List<ETarea>() { ETarea.Barrer, ETarea.Limpiar, ETarea.Ordenar });
-            Housekeeper hk2 = new Housekeeper("HK-002", 
-                new List<ETarea>() { ETarea.Ordenar, ETarea.Barrer });
-            Manager m1 = new Manager("M-001", 
-                new List<ETarea>() { ETarea.OrganizarGastos }, "Alto");
-            Manager m2 = new Manager("M-002",
-                new List<ETarea>() { ETarea.OrganizarGastos, ETarea.ComprarComida }, "Medio");
+            Housekeeper hk1 = new Housekeeper(new List<ETarea>() { ETarea.Barrer, ETarea.Limpiar, ETarea.Ordenar });
+            Housekeeper hk2 = new Housekeeper(new List<ETarea>() { ETarea.Ordenar, ETarea.Barrer });
+            Manager m1 = new Manager(new List<ETarea>() { ETarea.OrganizarGastos }, "Alto");
+            Manager m2 = new Manager(new List<ETarea>() { ETarea.OrganizarGastos, ETarea.ComprarComida }, "Medio");
+
+            // Encender la fabrica            
+            Factory.EncenderFabrica(true);
+            Console.WriteLine("Preparando fábrica...");
+            Console.ReadKey();
+            Console.Clear();
 
             // Agregar companions a la lista
-            Factory.AgregarCompanion(c1);
-            Factory.AgregarCompanion(c2);
-            Factory.AgregarCompanion(hk1);
-            Factory.AgregarCompanion(hk2);
-            Factory.AgregarCompanion(m1);
-            Factory.AgregarCompanion(m2);     
+            Factory.AgregarCompanionConsola(c1);
+            Factory.AgregarCompanionConsola(c2);
+            Factory.AgregarCompanionConsola(hk1);
+            Factory.AgregarCompanionConsola(hk2);
+            Factory.AgregarCompanionConsola(m1);
+            Factory.AgregarCompanionConsola(m2);     
 
             // Mostrar todos los Companions
             Console.WriteLine("LISTA DE TODOS LOS COMPANIONS:\n");

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Entidades
-{// HILOS PARA HACER ESTO AL CREAR UN COMPANION EN EL FORMS
+{
     public static class NameGenerator<T> where T : Companion
     {
         static int cookCount;
@@ -18,23 +18,47 @@ namespace Entidades
             housekeeperCount = 0;
             managerCount = 0;
         }
-        
+
+        public static int CookCount
+        {
+            set
+            {
+                NameGenerator<T>.cookCount = value;
+            }
+        }
+
+        public static int HousekeeperCount
+        {
+            set
+            {
+                NameGenerator<T>.housekeeperCount = value;
+            }
+        }
+
+        public static int ManagerCount
+        {
+            set
+            {
+                NameGenerator<T>.managerCount = value;
+            }
+        }
+
         public static string CompanionName(T comp)
         {
             if(comp is Cook)
             {
                 cookCount++;
-                comp.Nombre = $"Mi nombre es C-00{cookCount}";
+                comp.Nombre = $"C-00{cookCount}";
             }
             else if(comp is Housekeeper)
             {
                 housekeeperCount++;
-                comp.Nombre = $"Mi nombre es HK-00{housekeeperCount}";
+                comp.Nombre = $"HK-00{housekeeperCount}";
             }
             else
             {
                 managerCount++;
-                comp.Nombre = $"Mi nombre es M-00{managerCount}";
+                comp.Nombre = $"M-00{managerCount}";
             }
             return comp.Nombre;
         }

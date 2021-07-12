@@ -3,10 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Serialization;
 
 namespace Entidades
 {
-    public abstract class Companion
+    [Serializable]
+    [XmlInclude(typeof(Cook))]
+    [XmlInclude(typeof(Housekeeper))]
+    [XmlInclude(typeof(Manager))]
+    public class Companion
     {
         #region Atributos
         protected string nombre;      // marcado de numero de serie - generador de nombres
@@ -17,12 +22,12 @@ namespace Entidades
 
         #region Propiedades
         /// <summary>
-        /// Propiedad protegida de sólo lectura. Devuelve el nombre asignado al Companion, junto con una presentación.
+        /// Propiedad abstracta relacionada con el atributo nombre del Companion.
         /// </summary>
-        public abstract string Nombre { get; set; }
+        public virtual string Nombre { get; set; }
 
         /// <summary>
-        /// Propiedad privada de sólo lectura. Devuelve un string con la lista de tareas del Companion.
+        /// Propiedad pública de sólo lectura. Devuelve un string con la lista de tareas del Companion.
         /// </summary>
         public string ListaTareas
         {
@@ -37,10 +42,15 @@ namespace Entidades
 
                 return sb.ToString();
             }
+
+            set
+            {
+                this.listaTareas = new List<ETarea>() { };
+            }
         }
 
         /// <summary>
-        /// Propiedad privada de sólo lectura. Calcula el precio del Companion en base a la cantidad de tareas
+        /// Propiedad pública de sólo lectura. Calcula el precio del Companion en base a la cantidad de tareas
         /// que tiene asignadas.
         /// </summary>
         public double Precio
@@ -54,8 +64,17 @@ namespace Entidades
                 }
                 return this.precio;
             }
+
+            set
+            {
+                this.precio = value;
+            }
         }
 
+        /// <summary>
+        /// Propiedad pública de lectura y escritura. Obtiene la información o setea el valor de las tareas
+        /// que fueron realizadas por el Companion.
+        /// </summary>
         public double TareasRealizadas
         {
             get
@@ -71,12 +90,13 @@ namespace Entidades
 
         #region Metodos
         /// <summary>
-        /// Constructor privado de la clase Companion. Inicializa la lista de tareas.
+        /// Constructor público de la clase Companion. Inicializa la lista de tareas.
         /// </summary>
-        private Companion()
+        public Companion()
         {
             this.listaTareas = new List<ETarea>();
             this.tareasRealizadas = 0;
+            this.nombre = NameGenerator<Companion>.CompanionName(this);
         }
 
         /// <summary>
@@ -87,7 +107,25 @@ namespace Entidades
         /// <param name="tareas">Lista de tareas que podrá realizar</param>
         public Companion(List<ETarea> tareas) : this()
         {
-            this.listaTareas = tareas;
+            if(tareas.Count == 0)
+            {
+                if(this is Cook)
+                {
+                    this.listaTareas = new List<ETarea>(){ ETarea.Cocinar };
+                }
+                else if(this is Housekeeper)
+                {
+                    this.listaTareas = new List<ETarea>() { ETarea.Limpiar };
+                }
+                else
+                {
+                    this.listaTareas = new List<ETarea>() { ETarea.OrganizarGastos };
+                }
+            }
+            else
+            {
+                this.listaTareas = tareas;
+            }
         }
 
         /// <summary>
@@ -122,8 +160,8 @@ namespace Entidades
         /// <summary>
         /// Sobrecarga del operador '+'. Si el Copmanion no está en la Lista de Copmanions, lo agrega.
         /// </summary>
-        /// <param name="listaPersonajes">Lista de Companions a recorrer.</param>
-        /// <param name="personaje">Companion a agregar.</param>
+        /// <param name="listaCompanions">Lista de Companions a recorrer.</param>
+        /// <param name="unCompanion">Companion a agregar.</param>
         /// <returns>Lista de Companions, haya sido agregado el Companion o no.</returns>
         public static List<Companion> operator +(List<Companion> listaCompanions, Companion unCompanion)
         {
@@ -157,17 +195,20 @@ namespace Entidades
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine($"{this.Nombre}\n");
+            sb.AppendLine($"Mi nombre es {this.Nombre}\n");
             sb.AppendLine($"Tareas: \n{this.ListaTareas}");
 
             return sb.ToString();
         }
 
         /// <summary>
-        /// Método abstracto para mostrar datos del companion.
+        /// Método virtual para mostrar datos del Companion.
         /// </summary>
-        /// <returns></returns>
-        public abstract string MostrarDatos();
+        /// <returns>String con los datos del Companion.</returns>
+        public virtual string MostrarDatos()
+        {
+            return "";
+        }
         #endregion
     }
 }

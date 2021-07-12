@@ -14,7 +14,7 @@ namespace Entidades
     {
         public static void SerializeToBinary(T t, string path)
         {
-            Stream fs = new FileStream(path, FileMode.Create);
+            Stream fs = new FileStream(path, FileMode.Append);
             BinaryFormatter ser = new BinaryFormatter();
 
             ser.Serialize(fs, t);

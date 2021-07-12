@@ -41,16 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DBManagement.cs" />
     <Compile Include="Enumerados\EUtensilio.cs" />
+    <Compile Include="Excepciones\FabricaApagadaException.cs" />
     <Compile Include="Factory.cs" />
-    <Compile Include="InvalidCompanionNameException.cs" />
+    <Compile Include="Excepciones\InvalidAccessLevelException.cs" />
+    <Compile Include="Excepciones\InvalidCompanionNameException.cs" />
     <Compile Include="IOrdenable.cs" />
     <Compile Include="NameGenerator.cs" />
     <Compile Include="Serializer.cs" />
-    <Compile Include="Tipos de Companion\Manager.cs" />
-    <Compile Include="Tipos de Companion\Housekeeper.cs" />
-    <Compile Include="Companion.cs" />
-    <Compile Include="Tipos de Companion\Cook.cs" />
+    <Compile Include="Companions\Manager.cs" />
+    <Compile Include="Companions\Housekeeper.cs" />
+    <Compile Include="Companions\Companion.cs" />
+    <Compile Include="Companions\Cook.cs" />
     <Compile Include="Enumerados\ETarea.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

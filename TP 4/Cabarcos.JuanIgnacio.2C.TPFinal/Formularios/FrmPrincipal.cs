@@ -9,12 +9,14 @@ using System.Threading.Tasks;
 using System.Threading;
 using System.Windows.Forms;
 using System.IO;
+using System.Data.SqlClient;
 using Entidades;
+using Entidades.Excepciones;
 
 namespace Formularios
 {
     //public delegate void GuardarDelegate();
-    
+
     public partial class FrmPrincipal : Form
     {
         private int aux = 0;
@@ -35,8 +37,9 @@ namespace Formularios
         /// <param name="e"></param>
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
+            this.BackgroundImage = Formularios.Properties.Resources.fondoFrmPrincipal;
             this.SetHora();
-            //this.btnGuardarTxt.Click += btnGuardarTxt_Click;
+            this.chBoxEncender.BackColor = Color.Red;
             Factory.GuardarCompanionTxt += this.RealizarGuardadoTxt;
         }
 
@@ -47,12 +50,12 @@ namespace Formularios
         /// <param name="e"></param>
         private void btnListar_Click(object sender, EventArgs e)
         {
-            if(aux==0)
+            if (aux == 0)
             {
                 this.richTxtLista.Text += "LISTA DE COMPANIONS:\n";
                 this.richTxtLista.Text += Factory.MostrarListado<Companion>();
                 aux = 1;
-            } 
+            }
         }
 
         /// <summary>
@@ -105,7 +108,7 @@ namespace Formularios
             }
         }
 
-        private void RealizarGuardadoTxt()
+        public bool RealizarGuardadoTxt()
         {
             if (this.btnGuardarTxt.InvokeRequired)
             {
@@ -114,14 +117,83 @@ namespace Formularios
             }
             else
             {
-                using (StreamWriter sw = new StreamWriter("..\\..\\..\\Listado_Companions.txt", true, Encoding.UTF8))
+                using (StreamWriter sw = new StreamWriter("..\\..\\..\\listado_companions.txt", true, Encoding.UTF8))
                 {
                     sw.WriteLine(this.lblHora.Text + "\n");
                     sw.WriteLine(Factory.MostrarListado<Companion>());
-                    sw.Write("==============================\n");
+                    sw.Write("==============================\n\n");
                 }
             }
+            return true;
 
+        }
+
+        private void btnDBImport_Click(object sender, EventArgs e)
+        {
+            Dictionary<string, string> dictCompanions = DBManagement.ImportFromDB();
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine($"Lista de companions en la base de datos:\n");
+            foreach (var item in dictCompanions)
+            {
+                sb.AppendLine($"{item.Key.ToString()} --- {item.Value.ToString()}");
+            }
+
+            MessageBox.Show($"{sb.ToString()}", $"{dictCompanions.Count} companion/s en la BD", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void btnDBExport_Click(object sender, EventArgs e)
+        {
+            int filasAgregadas = DBManagement.ExportToDB(Factory.ListaCompanions);
+
+            MessageBox.Show($"{filasAgregadas} companion/s agregado/s a la BD", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        }
+
+        private void btnBinarySer_Click(object sender, EventArgs e)
+        {
+            List<Companion> listaComp = Factory.ListaCompanions;
+            int cantidadSerializados = 0;
+
+            foreach (Companion item in listaComp)
+            {
+                if (item is Cook)
+                {
+                    Cook aux = (Cook)item;
+                    Serializer<Cook>.SerializeToBinary(aux, "..\\..\\..\\listado_companions.bin");
+                }
+                else if (item is Housekeeper)
+                {
+                    Housekeeper aux = (Housekeeper)item;
+                    Serializer<Housekeeper>.SerializeToBinary(aux, "..\\..\\..\\listado_companions.bin");
+                }
+                else
+                {
+                    Manager aux = (Manager)item;
+                    Serializer<Manager>.SerializeToBinary(aux, "..\\..\\..\\listado_companions.bin");
+                }
+                cantidadSerializados++;
+            }
+            MessageBox.Show($"{cantidadSerializados} Companion/s agregado/s al archvio binario.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void btnXmlSer_Click(object sender, EventArgs e)
+        {
+            Serializer<List<Companion>>.SerializeToXml(Factory.ListaCompanions, "..\\..\\..\\listado_companions.xml");
+            MessageBox.Show($"{Factory.ListaCompanions.Count} Companion/s agregado/s al archvio XML.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void chBoxEncender_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chBoxEncender.Checked)
+            {
+                chBoxEncender.BackColor = Color.Green;
+            }
+            else
+            {
+                chBoxEncender.BackColor = Color.Red;
+            }
+            Factory.EncenderFabrica(chBoxEncender.Checked);
         }
     }
 }

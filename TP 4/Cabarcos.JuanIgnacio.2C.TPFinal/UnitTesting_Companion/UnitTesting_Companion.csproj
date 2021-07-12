@@ -47,6 +47,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="UnitTest1.cs" />
@@ -59,6 +60,10 @@
     <ProjectReference Include="..\Entidades\Entidades.csproj">
       <Project>{2235da19-a55f-4b8b-a38b-1abbc4a856f8}</Project>
       <Name>Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Formularios\Formularios.csproj">
+      <Project>{76dadf01-3ca4-4869-8451-6a84a80946f4}</Project>
+      <Name>Formularios</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

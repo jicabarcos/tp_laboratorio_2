@@ -33,13 +33,12 @@ namespace Formularios
             this.richTxtLista = new System.Windows.Forms.RichTextBox();
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnXmlSer = new System.Windows.Forms.Button();
-            this.btnXmlDeser = new System.Windows.Forms.Button();
             this.btnBinarySer = new System.Windows.Forms.Button();
-            this.btnBinaryDeser = new System.Windows.Forms.Button();
             this.btnDBImport = new System.Windows.Forms.Button();
             this.btnDBExport = new System.Windows.Forms.Button();
             this.lblHora = new System.Windows.Forms.Label();
             this.btnGuardarTxt = new System.Windows.Forms.Button();
+            this.chBoxEncender = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // btnListar
@@ -72,61 +71,48 @@ namespace Formularios
             // 
             // btnXmlSer
             // 
-            this.btnXmlSer.Location = new System.Drawing.Point(434, 371);
+            this.btnXmlSer.Location = new System.Drawing.Point(509, 371);
             this.btnXmlSer.Name = "btnXmlSer";
-            this.btnXmlSer.Size = new System.Drawing.Size(80, 30);
-            this.btnXmlSer.TabIndex = 3;
-            this.btnXmlSer.Text = "XML Import";
+            this.btnXmlSer.Size = new System.Drawing.Size(80, 67);
+            this.btnXmlSer.TabIndex = 4;
+            this.btnXmlSer.Text = "Guardar .xml";
             this.btnXmlSer.UseVisualStyleBackColor = true;
-            // 
-            // btnXmlDeser
-            // 
-            this.btnXmlDeser.Location = new System.Drawing.Point(434, 408);
-            this.btnXmlDeser.Name = "btnXmlDeser";
-            this.btnXmlDeser.Size = new System.Drawing.Size(80, 30);
-            this.btnXmlDeser.TabIndex = 4;
-            this.btnXmlDeser.Text = "XML Export";
-            this.btnXmlDeser.UseVisualStyleBackColor = true;
+            this.btnXmlSer.Click += new System.EventHandler(this.btnXmlSer_Click);
             // 
             // btnBinarySer
             // 
-            this.btnBinarySer.Location = new System.Drawing.Point(520, 371);
+            this.btnBinarySer.Location = new System.Drawing.Point(595, 371);
             this.btnBinarySer.Name = "btnBinarySer";
-            this.btnBinarySer.Size = new System.Drawing.Size(80, 30);
-            this.btnBinarySer.TabIndex = 5;
-            this.btnBinarySer.Text = "Binary Import";
+            this.btnBinarySer.Size = new System.Drawing.Size(80, 67);
+            this.btnBinarySer.TabIndex = 6;
+            this.btnBinarySer.Text = "Guardar .bin";
             this.btnBinarySer.UseVisualStyleBackColor = true;
-            // 
-            // btnBinaryDeser
-            // 
-            this.btnBinaryDeser.Location = new System.Drawing.Point(520, 408);
-            this.btnBinaryDeser.Name = "btnBinaryDeser";
-            this.btnBinaryDeser.Size = new System.Drawing.Size(80, 30);
-            this.btnBinaryDeser.TabIndex = 6;
-            this.btnBinaryDeser.Text = "Binary Export";
-            this.btnBinaryDeser.UseVisualStyleBackColor = true;
+            this.btnBinarySer.Click += new System.EventHandler(this.btnBinarySer_Click);
             // 
             // btnDBImport
             // 
-            this.btnDBImport.Location = new System.Drawing.Point(606, 371);
+            this.btnDBImport.Location = new System.Drawing.Point(681, 371);
             this.btnDBImport.Name = "btnDBImport";
-            this.btnDBImport.Size = new System.Drawing.Size(80, 30);
+            this.btnDBImport.Size = new System.Drawing.Size(107, 30);
             this.btnDBImport.TabIndex = 7;
-            this.btnDBImport.Text = "DB Import";
+            this.btnDBImport.Text = "Importar desde DB";
             this.btnDBImport.UseVisualStyleBackColor = true;
+            this.btnDBImport.Click += new System.EventHandler(this.btnDBImport_Click);
             // 
             // btnDBExport
             // 
-            this.btnDBExport.Location = new System.Drawing.Point(606, 408);
+            this.btnDBExport.Location = new System.Drawing.Point(681, 408);
             this.btnDBExport.Name = "btnDBExport";
-            this.btnDBExport.Size = new System.Drawing.Size(80, 30);
+            this.btnDBExport.Size = new System.Drawing.Size(107, 30);
             this.btnDBExport.TabIndex = 8;
-            this.btnDBExport.Text = "DB Export";
+            this.btnDBExport.Text = "Exportar a DB";
             this.btnDBExport.UseVisualStyleBackColor = true;
+            this.btnDBExport.Click += new System.EventHandler(this.btnDBExport_Click);
             // 
             // lblHora
             // 
             this.lblHora.AutoSize = true;
+            this.lblHora.BackColor = System.Drawing.Color.Transparent;
             this.lblHora.Location = new System.Drawing.Point(340, 9);
             this.lblHora.Name = "lblHora";
             this.lblHora.Size = new System.Drawing.Size(0, 13);
@@ -134,7 +120,7 @@ namespace Formularios
             // 
             // btnGuardarTxt
             // 
-            this.btnGuardarTxt.Location = new System.Drawing.Point(352, 371);
+            this.btnGuardarTxt.Location = new System.Drawing.Point(427, 371);
             this.btnGuardarTxt.Name = "btnGuardarTxt";
             this.btnGuardarTxt.Size = new System.Drawing.Size(75, 67);
             this.btnGuardarTxt.TabIndex = 10;
@@ -142,18 +128,28 @@ namespace Formularios
             this.btnGuardarTxt.UseVisualStyleBackColor = true;
             this.btnGuardarTxt.Click += new System.EventHandler(this.btnGuardarTxt_Click);
             // 
+            // chBoxEncender
+            // 
+            this.chBoxEncender.AutoSize = true;
+            this.chBoxEncender.Location = new System.Drawing.Point(12, 5);
+            this.chBoxEncender.Name = "chBoxEncender";
+            this.chBoxEncender.Size = new System.Drawing.Size(115, 17);
+            this.chBoxEncender.TabIndex = 11;
+            this.chBoxEncender.Text = "Fabrica Encendida";
+            this.chBoxEncender.UseVisualStyleBackColor = true;
+            this.chBoxEncender.CheckedChanged += new System.EventHandler(this.chBoxEncender_CheckedChanged);
+            // 
             // FrmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.chBoxEncender);
             this.Controls.Add(this.btnGuardarTxt);
             this.Controls.Add(this.lblHora);
             this.Controls.Add(this.btnDBExport);
             this.Controls.Add(this.btnDBImport);
-            this.Controls.Add(this.btnBinaryDeser);
             this.Controls.Add(this.btnBinarySer);
-            this.Controls.Add(this.btnXmlDeser);
             this.Controls.Add(this.btnXmlSer);
             this.Controls.Add(this.btnAgregar);
             this.Controls.Add(this.richTxtLista);
@@ -173,13 +169,12 @@ namespace Formularios
         private System.Windows.Forms.RichTextBox richTxtLista;
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnXmlSer;
-        private System.Windows.Forms.Button btnXmlDeser;
         private System.Windows.Forms.Button btnBinarySer;
-        private System.Windows.Forms.Button btnBinaryDeser;
         private System.Windows.Forms.Button btnDBImport;
         private System.Windows.Forms.Button btnDBExport;
         private System.Windows.Forms.Label lblHora;
         private System.Windows.Forms.Button btnGuardarTxt;
+        private System.Windows.Forms.CheckBox chBoxEncender;
     }
 }
 
