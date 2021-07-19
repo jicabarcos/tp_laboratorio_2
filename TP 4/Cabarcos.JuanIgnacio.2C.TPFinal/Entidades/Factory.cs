@@ -27,6 +27,9 @@ namespace Entidades
             listaCompanions = new List<Companion>();
         }
 
+        /// <summary>
+        /// Propiedad pública de sólo lectura. Obtiene la lista de Companions de la fábrica.
+        /// </summary>
         public static List<Companion> ListaCompanions
         {
             get
@@ -35,6 +38,9 @@ namespace Entidades
             }
         }
 
+        /// <summary>
+        /// Propiedad pública de sólo lectura. Obtiene el estado de la fábrica
+        /// </summary>
         public static bool Estado
         {
             get
@@ -136,6 +142,10 @@ namespace Entidades
             return false;
         }
 
+        /// <summary>
+        /// Setea el estado de la fábtrica en encendido o apagado.
+        /// </summary>
+        /// <param name="estado">Estado a establecer.</param>
         public static void EncenderFabrica(this bool estado)
         {
             Factory.estado = estado;

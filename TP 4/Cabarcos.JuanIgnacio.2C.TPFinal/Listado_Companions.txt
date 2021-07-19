@@ -76,3 +76,55 @@ ComprarComida
 
 ==============================
 
+07/19/2021 16:40:36
+
+Hola! Soy tu nuevo Companion encargado de la cocina.
+Mi nombre es C-001
+
+Tareas: 
+Cocinar
+ComprarComida
+
+Utensilios:
+Cubiertos
+Ollas
+
+Precio final: $600
+
+-----------------------------
+
+
+==============================
+
+07/19/2021 16:40:47
+
+Hola! Soy tu nuevo Companion encargado de la cocina.
+Mi nombre es C-001
+
+Tareas: 
+Cocinar
+ComprarComida
+
+Utensilios:
+Cubiertos
+Ollas
+
+Precio final: $600
+
+-----------------------------
+
+Hola! Soy tu nuevo Companion encargado de administrar y organizar.
+Mi nombre es M-001
+
+Tareas: 
+OrganizarGastos
+
+Nivel de acceso a datos del usuario: Alto
+
+Precio final: $300
+
+-----------------------------
+
+
+==============================
+

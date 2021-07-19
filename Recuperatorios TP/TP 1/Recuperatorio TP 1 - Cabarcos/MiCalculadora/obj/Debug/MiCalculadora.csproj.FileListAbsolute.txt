@@ -1,0 +1,39 @@
+C:\Users\Intel\source\repos\Recuperatorio TP 1 - Cabarcos\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Users\Intel\source\repos\Recuperatorio TP 1 - Cabarcos\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Users\Intel\source\repos\Recuperatorio TP 1 - Cabarcos\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Users\Intel\source\repos\Recuperatorio TP 1 - Cabarcos\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\Users\Intel\source\repos\Recuperatorio TP 1 - Cabarcos\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
+C:\Users\Intel\source\repos\Recuperatorio TP 1 - Cabarcos\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Users\Intel\source\repos\Recuperatorio TP 1 - Cabarcos\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Users\Intel\source\repos\Recuperatorio TP 1 - Cabarcos\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\Intel\source\repos\Recuperatorio TP 1 - Cabarcos\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Users\Intel\source\repos\Recuperatorio TP 1 - Cabarcos\MiCalculadora\obj\Debug\MiCalculadora.pdb
+C:\Users\Intel\source\repos\Recuperatorio TP 1 - Cabarcos\MiCalculadora\bin\Debug\Entidades.dll
+C:\Users\Intel\source\repos\Recuperatorio TP 1 - Cabarcos\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Users\Intel\source\repos\Recuperatorio TP 1 - Cabarcos\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\Recuperatorio TP 1 - Cabarcos\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\Recuperatorio TP 1 - Cabarcos\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\Recuperatorio TP 1 - Cabarcos\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\Recuperatorio TP 1 - Cabarcos\MiCalculadora\bin\Debug\Entidades.dll
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\Recuperatorio TP 1 - Cabarcos\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\Recuperatorio TP 1 - Cabarcos\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\Recuperatorio TP 1 - Cabarcos\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\Recuperatorio TP 1 - Cabarcos\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\Recuperatorio TP 1 - Cabarcos\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\Recuperatorio TP 1 - Cabarcos\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\Recuperatorio TP 1 - Cabarcos\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\Recuperatorio TP 1 - Cabarcos\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\Recuperatorio TP 1 - Cabarcos\MiCalculadora\obj\Debug\MiCalculadora.pdb
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\MiCalculadora\bin\Debug\MiCalculadora.exe
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\MiCalculadora\bin\Debug\MiCalculadora.pdb
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\MiCalculadora\bin\Debug\Entidades.dll
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\MiCalculadora\bin\Debug\Entidades.pdb
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\MiCalculadora\obj\Debug\MiCalculadora.exe
+C:\Repo\tp_laboratorio_2\Recuperatorios TP\TP 1\MiCalculadora\obj\Debug\MiCalculadora.pdb

@@ -17,3 +17,22 @@ C:\Users\Intel\Documents\Juani\UTN\2° Cuatrimestre\Lab y Prog (repos)\tp_labora
 C:\Users\Intel\Documents\Juani\UTN\2° Cuatrimestre\Lab y Prog (repos)\tp_laboratorio_2\TP 1\MiCalculadora\bin\Debug\netcoreapp3.1\Entidades.exe.config
 C:\Users\Intel\Documents\Juani\UTN\2° Cuatrimestre\Lab y Prog (repos)\tp_laboratorio_2\TP 1\MiCalculadora\obj\Debug\netcoreapp3.1\MiCalculadora.csproj.CopyComplete
 C:\Users\Intel\Documents\Juani\UTN\2° Cuatrimestre\Lab y Prog (repos)\tp_laboratorio_2\TP 1\MiCalculadora\obj\Debug\netcoreapp3.1\MiCalculadora.FrmCalculadora.resources
+C:\Repo\tp_laboratorio_2\TP 1\MiCalculadora\bin\Debug\netcoreapp3.1\MiCalculadora.exe
+C:\Repo\tp_laboratorio_2\TP 1\MiCalculadora\bin\Debug\netcoreapp3.1\MiCalculadora.deps.json
+C:\Repo\tp_laboratorio_2\TP 1\MiCalculadora\bin\Debug\netcoreapp3.1\MiCalculadora.runtimeconfig.json
+C:\Repo\tp_laboratorio_2\TP 1\MiCalculadora\bin\Debug\netcoreapp3.1\MiCalculadora.runtimeconfig.dev.json
+C:\Repo\tp_laboratorio_2\TP 1\MiCalculadora\bin\Debug\netcoreapp3.1\MiCalculadora.dll
+C:\Repo\tp_laboratorio_2\TP 1\MiCalculadora\bin\Debug\netcoreapp3.1\MiCalculadora.pdb
+C:\Repo\tp_laboratorio_2\TP 1\MiCalculadora\bin\Debug\netcoreapp3.1\Entidades.exe
+C:\Repo\tp_laboratorio_2\TP 1\MiCalculadora\bin\Debug\netcoreapp3.1\Entidades.pdb
+C:\Repo\tp_laboratorio_2\TP 1\MiCalculadora\bin\Debug\netcoreapp3.1\Entidades.exe.config
+C:\Repo\tp_laboratorio_2\TP 1\MiCalculadora\obj\Debug\netcoreapp3.1\MiCalculadora.csprojAssemblyReference.cache
+C:\Repo\tp_laboratorio_2\TP 1\MiCalculadora\obj\Debug\netcoreapp3.1\MiCalculadora.FrmCalculadora.resources
+C:\Repo\tp_laboratorio_2\TP 1\MiCalculadora\obj\Debug\netcoreapp3.1\MiCalculadora.csproj.GenerateResource.cache
+C:\Repo\tp_laboratorio_2\TP 1\MiCalculadora\obj\Debug\netcoreapp3.1\MiCalculadora.AssemblyInfoInputs.cache
+C:\Repo\tp_laboratorio_2\TP 1\MiCalculadora\obj\Debug\netcoreapp3.1\MiCalculadora.AssemblyInfo.cs
+C:\Repo\tp_laboratorio_2\TP 1\MiCalculadora\obj\Debug\netcoreapp3.1\MiCalculadora.csproj.CoreCompileInputs.cache
+C:\Repo\tp_laboratorio_2\TP 1\MiCalculadora\obj\Debug\netcoreapp3.1\MiCalculadora.csproj.CopyComplete
+C:\Repo\tp_laboratorio_2\TP 1\MiCalculadora\obj\Debug\netcoreapp3.1\MiCalculadora.dll
+C:\Repo\tp_laboratorio_2\TP 1\MiCalculadora\obj\Debug\netcoreapp3.1\MiCalculadora.pdb
+C:\Repo\tp_laboratorio_2\TP 1\MiCalculadora\obj\Debug\netcoreapp3.1\MiCalculadora.genruntimeconfig.cache

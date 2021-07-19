@@ -1,0 +1,6 @@
+C:\Users\Intel\source\repos\Recuperatorio TP 1 - Cabarcos\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Intel\source\repos\Recuperatorio TP 1 - Cabarcos\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Intel\source\repos\Recuperatorio TP 1 - Cabarcos\Entidades\bin\Debug\Entidades.dll
+C:\Users\Intel\source\repos\Recuperatorio TP 1 - Cabarcos\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Intel\source\repos\Recuperatorio TP 1 - Cabarcos\Entidades\obj\Debug\Entidades.dll
+C:\Users\Intel\source\repos\Recuperatorio TP 1 - Cabarcos\Entidades\obj\Debug\Entidades.pdb

@@ -15,8 +15,6 @@ using Entidades.Excepciones;
 
 namespace Formularios
 {
-    //public delegate void GuardarDelegate();
-
     public partial class FrmPrincipal : Form
     {
         private int aux = 0;
