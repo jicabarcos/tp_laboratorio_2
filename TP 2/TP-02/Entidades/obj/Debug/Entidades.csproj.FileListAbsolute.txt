@@ -17,3 +17,9 @@ C:\Users\Intel\Documents\Juani\UTN\2° Cuatrimestre\Lab y Prog (repos)\TP 2\TP-0
 C:\Users\Intel\Documents\Juani\UTN\2° Cuatrimestre\Lab y Prog (repos)\TP 2\TP-02\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Intel\Documents\Juani\UTN\2° Cuatrimestre\Lab y Prog (repos)\TP 2\TP-02\Entidades\obj\Debug\Entidades.dll
 C:\Users\Intel\Documents\Juani\UTN\2° Cuatrimestre\Lab y Prog (repos)\TP 2\TP-02\Entidades\obj\Debug\Entidades.pdb
+C:\Repo\tp_laboratorio_2\TP 2\TP-02\Entidades\bin\Debug\Entidades.dll
+C:\Repo\tp_laboratorio_2\TP 2\TP-02\Entidades\bin\Debug\Entidades.pdb
+C:\Repo\tp_laboratorio_2\TP 2\TP-02\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Repo\tp_laboratorio_2\TP 2\TP-02\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Repo\tp_laboratorio_2\TP 2\TP-02\Entidades\obj\Debug\Entidades.dll
+C:\Repo\tp_laboratorio_2\TP 2\TP-02\Entidades\obj\Debug\Entidades.pdb
